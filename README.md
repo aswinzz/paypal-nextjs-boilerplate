@@ -68,12 +68,12 @@ Before you begin, ensure you have:
    cd paypal-nextjs-boilerplate
 
 2. Install dependencies:
-   npm install
-   # or
-   yarn install
+   `npm install`
+    or
+   `yarn install`
 
 3. Copy the environment template:
-   cp .env.local.example .env.local
+   `cp .env.local.example .env.local`
 
 4. Update .env.local with your PayPal credentials:
    - Add your PayPal Client ID and Secret
@@ -84,11 +84,11 @@ Before you begin, ensure you have:
 ### 6. Development
 
 Run the development server:
-npm run dev
-# or
-yarn dev
+`npm run dev`
+ or
+`yarn dev`
 
-Visit http://localhost:3000 to see your application.
+Visit `http://localhost:3000` to see your application.
 
 ## Testing Payments
 
@@ -157,9 +157,9 @@ Visit http://localhost:3000 to see your application.
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (git checkout -b feature/AmazingFeature)
-3. Commit your changes (git commit -m 'Add some AmazingFeature')
-4. Push to the branch (git push origin feature/AmazingFeature)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ## License
